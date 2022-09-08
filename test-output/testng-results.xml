@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29440" started-at="2022-09-08T07:21:32 IST" finished-at="2022-09-08T07:22:02 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="29440" started-at="2022-09-08T07:21:32 IST" finished-at="2022-09-08T07:22:02 IST">
+      <class name="tests.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.HomePageTest@5f282abb]" name="setup" is-config="true" duration-ms="24" started-at="2022-09-08T07:21:32 IST" finished-at="2022-09-08T07:21:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.HomePageTest@5f282abb]" name="beforeMethod" is-config="true" duration-ms="9768" started-at="2022-09-08T07:21:32 IST" finished-at="2022-09-08T07:21:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.HomePageTest@5f282abb]" name="beforeMethod" is-config="true" duration-ms="10151" started-at="2022-09-08T07:21:32 IST" finished-at="2022-09-08T07:21:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyUserName()[pri:0, instance:tests.HomePageTest@5f282abb]" name="verifyUserName" duration-ms="2935" started-at="2022-09-08T07:21:42 IST" finished-at="2022-09-08T07:21:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserName -->
+        <test-method status="PASS" signature="verifyMenuItems()[pri:0, instance:tests.HomePageTest@5f282abb]" name="verifyMenuItems" duration-ms="3414" started-at="2022-09-08T07:21:42 IST" finished-at="2022-09-08T07:21:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMenuItems -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@5f282abb]" name="afterMethod" is-config="true" duration-ms="675" started-at="2022-09-08T07:21:45 IST" finished-at="2022-09-08T07:21:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserName status=SUCCESS method=HomePageTest.verifyUserName()[pri:0, instance:tests.HomePageTest@5f282abb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@5f282abb]" name="afterMethod" is-config="true" duration-ms="648" started-at="2022-09-08T07:21:46 IST" finished-at="2022-09-08T07:21:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMenuItems status=SUCCESS method=HomePageTest.verifyMenuItems()[pri:0, instance:tests.HomePageTest@5f282abb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.HomePageTest -->
+      <class name="tests.LeavePageTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.LeavePageTest@167fdd33]" name="beforeMethod" is-config="true" duration-ms="8976" started-at="2022-09-08T07:21:46 IST" finished-at="2022-09-08T07:21:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.LeavePageTest@167fdd33]" name="beforeMethod" is-config="true" duration-ms="10438" started-at="2022-09-08T07:21:46 IST" finished-at="2022-09-08T07:21:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="isResetButtonPreset()[pri:0, instance:tests.LeavePageTest@167fdd33]" name="isResetButtonPreset" duration-ms="4306" started-at="2022-09-08T07:21:55 IST" finished-at="2022-09-08T07:21:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isResetButtonPreset -->
+        <test-method status="PASS" signature="isSearchButtonPreset()[pri:0, instance:tests.LeavePageTest@167fdd33]" name="isSearchButtonPreset" duration-ms="4068" started-at="2022-09-08T07:21:57 IST" finished-at="2022-09-08T07:22:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSearchButtonPreset -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.LeavePageTest@167fdd33]" name="afterMethod" is-config="true" duration-ms="678" started-at="2022-09-08T07:21:59 IST" finished-at="2022-09-08T07:22:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isResetButtonPreset status=SUCCESS method=LeavePageTest.isResetButtonPreset()[pri:0, instance:tests.LeavePageTest@167fdd33] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.LeavePageTest@167fdd33]" name="afterMethod" is-config="true" duration-ms="641" started-at="2022-09-08T07:22:01 IST" finished-at="2022-09-08T07:22:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isSearchButtonPreset status=SUCCESS method=LeavePageTest.isSearchButtonPreset()[pri:0, instance:tests.LeavePageTest@167fdd33] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.LeavePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
