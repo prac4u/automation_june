@@ -48,7 +48,7 @@ public class HomePageTest extends BaseTest {
 		softAssert.assertEquals(actualList, Constants.HOME_PAGE_MENU_ITEMS);
 		
 		
-		//softAssert.assertAll();
+		softAssert.assertAll();
 		
 	}
 	
