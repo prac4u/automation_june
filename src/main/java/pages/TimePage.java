@@ -7,7 +7,7 @@ public class TimePage {
 
 	
 	WebDriver driver;
-	By selectEmp = By.xpath("//h6[text()='Select Employee']");
+	By selectEmployee = By.xpath("//h6[text()='Select Employee']");
 	
 	
 	public TimePage(WebDriver driver) {
