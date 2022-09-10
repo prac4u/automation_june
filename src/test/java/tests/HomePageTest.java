@@ -50,5 +50,12 @@ public class HomePageTest extends BaseTest {
 		
 	}
 	
+	@Test
+	public void verifyHomeSomething()
+	{
+		
+		Assert.assertTrue(true);
+	}
+	
 	
 }
