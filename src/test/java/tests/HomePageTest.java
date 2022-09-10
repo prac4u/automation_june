@@ -46,7 +46,9 @@ public class HomePageTest extends BaseTest {
 	//	log.info("Expected Menu List : " + Constants.HOME_PAGE_MENU_ITEMS);
 		
 		softAssert.assertEquals(actualList, Constants.HOME_PAGE_MENU_ITEMS);
-		softAssert.assertAll();
+		
+		
+		//softAssert.assertAll();
 		
 	}
 	
