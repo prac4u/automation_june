@@ -29,7 +29,9 @@ public class ExcelUtil {
 	public int numberOfRowsInExcel()
 	{
 		
+		System.out.println("numberOfRowsInExcel");
 		return sheet.getPhysicalNumberOfRows();
+		
 	}
 	
 
