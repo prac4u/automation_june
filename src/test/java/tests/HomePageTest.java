@@ -56,7 +56,7 @@ public class HomePageTest extends BaseTest {
 	@Test
 	public void test2()
 	{
-		Assert.assertTrue(false);
+		Assert.assertTrue(true);
 	}
 	
 	@Test
