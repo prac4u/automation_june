@@ -31,4 +31,11 @@ public class StringUtil {
 		System.out.println(getNewXpath(dateXPath, "May"));
 		System.out.println(getNewXpath(dateXPath, "June"));
 	}
+	
+	
+	
+	public static void test1()
+	{
+		
+	}
 }
