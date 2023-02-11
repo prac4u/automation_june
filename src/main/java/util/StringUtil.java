@@ -26,7 +26,7 @@ public class StringUtil {
 	
 	public static void main(String[] args)
 	{
-		System.out.println(getNewXpath(xpath1, "10"));
+		System.out.println(getNewXpath(xpath1, "20"));
 		System.out.println(getNewXpath(xpath2, "20", "RANDOM"));
 		System.out.println(getNewXpath(dateXPath, "May"));
 		System.out.println(getNewXpath(dateXPath, "June"));
