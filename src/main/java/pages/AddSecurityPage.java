@@ -1,11 +1,11 @@
 package pages;
 
-public class AddSecurityPage {
-
+public class AddSecurityPage  {
 	
 	public void addSecurity()
 	{
-		System.out.println("user1");
-    System.out.println("ABC");
+
+		System.out.println("User 2");
+
 	}
 }
