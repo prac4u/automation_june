@@ -33,9 +33,5 @@ public class StringUtil {
 	}
 	
 	
-	
-	public static void test1()
-	{
-		
-	}
+
 }
